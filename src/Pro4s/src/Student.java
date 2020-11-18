@@ -9,6 +9,8 @@ public class Student {
     private int school;
     private int regret;
 
+    private static final int NAME_SPACE = 27;
+
     public Student() {}
 
     public Student(String name, double GPA, int ES, int nSchools) {
@@ -16,6 +18,8 @@ public class Student {
         this.name = name;
         this.GPA = GPA;
         this.ES = ES;
+
+        this.school = -1;
 
         setNSchools(nSchools);
     }
@@ -37,9 +41,16 @@ public class Student {
     public void setNSchools(int n)                  { this.rankings = new int[n]; }
 
 
-    public void setRanking(int i, int r) {
+    public void setRanking(int i, int r) throws Exception {
 
+        for (int curr = 0; curr < i; ++curr) {
 
+            if (rankings[curr] == r) {
+                throw new Exception("ERROR: Rank " + r + " already used!");
+            }
+        }
+
+        this.rankings[i] = r;
     }
 
 
@@ -48,23 +59,57 @@ public class Student {
     }
 
 
-    public void editInfo(ArrayList< School > H , boolean canEditRankings) {
+    public void editInfo(ArrayList<School> H , boolean canEditRankings) {
 
 
     }
 
 
-    public void editRankings(ArrayList< School > H , boolean rankingsSet) {
+    public void editRankings(ArrayList<School> H , boolean rankingsSet) {
 
     }
 
 
-    public void print(ArrayList< School > H) {
+    public void print(ArrayList<School> H) {
 
+        StringBuilder out = new StringBuilder(this.name);
+
+        if (this.name.length() > NAME_SPACE) {
+            out.append("     ");
+
+        } else {
+
+            int leftSpace = NAME_SPACE - this.name.length() + 5;
+
+            for (int i = 0; i < leftSpace; ++i) {
+
+                out.append(" ");
+            }
+        }
+
+        out.append(this.GPA).append("   ");
+
+        out.append(this.ES).append("  ");
+
+        if (this.school == -1) {
+
+            out.append("-                          ");
+
+        } else {
+
+            out.append(H.get(this.school).getName()).append("     ");
+        }
+
+        for (int r : rankings) {
+
+            out.append(H.get(r-1).getName()).append(", ");
+        }
+
+        System.out.println(out.substring(0, out.length()-2));
     }
 
 
-    public void printRankings(ArrayList< School > H) {
+    public void printRankings(ArrayList<School> H) {
 
 
     }
