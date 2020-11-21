@@ -51,6 +51,7 @@ public class School {
 
 
     // get new info from the user
+    // implemented inside SMPLauncher editSchools
     public void editInfo(ArrayList<Student> S , boolean canEditRankings) {
 
     }
@@ -97,13 +98,9 @@ public class School {
     // print school info and assigned student in tabular format
     public void print(ArrayList<Student> S, boolean rankingsSet) {
 
-        if (rankingsSet) {
-            printRankings(S);
-            return;
-        }
-
         StringBuilder out = new StringBuilder();
 
+        // print school name
         if (this.name.length() < NAME_SPACE) {
 
             int leftSpaceNumber = NAME_SPACE - this.name.length() + 5;
@@ -118,26 +115,41 @@ public class School {
             out.append(this.name).append("     ");
         }
 
+        // print alpha
         out.append(this.alpha).append("  ");
 
-        out.append("-                          ");
+        // print assigned student
+        if (this.student == -1) {
+            out.append("-                          ");
 
+        } else {
+
+            Student s = S.get(this.student);
+
+            out.append(s.getName() + "               ");
+        }
+
+        // print preferred students
         if (rankings.length == 0) {
             out.append("-");
 
         } else {
 
-            for (int r : rankings) {
-                out.append(S.get(r-1).getName()).append(", ");
+            String[] preferredStudents = new String[S.size()];
+
+            for (int i = 0; i < rankings.length; ++i) {
+
+                int rank = rankings[i];
+
+                int pos = rank - 1;
+
+                preferredStudents[pos] = S.get(i).getName();
             }
+
+            out.append(String.join(", ", preferredStudents));
         }
 
-        if (rankings.length == 0) {
-            System.out.println(out.toString());
-
-        } else {
-            System.out.println(out.substring(0, out.length()- 2));
-        }
+        System.out.println(out.toString());
     }
 
 

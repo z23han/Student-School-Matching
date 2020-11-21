@@ -31,6 +31,7 @@ public class Student {
     public int getRanking(int i)                    { return rankings[i]; }
     public int getSchool()                          { return this.school; }
     public int getRegret()                          { return this.regret; }
+    public int[] getRankings()                      { return this.rankings; }
 
 
     public void setName(String name)                { this.name = name; }
@@ -59,12 +60,14 @@ public class Student {
     }
 
 
+    // implemented inside SMPLauncher editStudent
     public void editInfo(ArrayList<School> H , boolean canEditRankings) {
 
 
     }
 
 
+    // implemented inside SMPLauncher editStudents
     public void editRankings(ArrayList<School> H , boolean rankingsSet) {
 
     }

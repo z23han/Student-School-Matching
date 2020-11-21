@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SMPLauncher {
+public class Pro4_zhan7964 {
 
     public static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -18,6 +18,8 @@ public class SMPLauncher {
     public static final int MAX_ES = 5;
 
     public static final double MAX_ALPHA = 1;
+
+    public static SMPSolver solver = new SMPSolver(students, schools);
 
     public static void main(String[] args) throws Exception {
 
@@ -80,9 +82,36 @@ public class SMPLauncher {
                     break;
 
                 case "M":
+                    try {
+                        boolean result = solver.match();
+
+                        solver.printStats();
+
+                        if (result) {
+
+                            System.out.println();
+                            System.out.println(students.size() + " matches made in 1ms!");
+                            System.out.println();
+                        }
+
+                    } catch (Exception e) {
+                        System.out.println();
+                        System.out.println(e.getMessage());
+                        System.out.println();
+
+                    }
                     break;
 
                 case "D":
+                    try {
+                        solver.print();
+
+                    } catch (Exception e) {
+                        System.out.println();
+                        System.out.println(e.getMessage());
+                        System.out.println();
+
+                    }
                     break;
 
                 case "R":
@@ -96,10 +125,10 @@ public class SMPLauncher {
                     break;
 
                 case "Q":
+                    System.out.println("Arrivederci!");
                     break;
 
                 default:
-                    System.out.println();
                     System.out.println("ERROR: Invalid menu choice!");
                     System.out.println();
 
