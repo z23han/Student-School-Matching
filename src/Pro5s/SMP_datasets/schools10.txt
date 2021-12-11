@@ -1,0 +1,10 @@
+Frozen Lake Charter School,0.11
+Sun Valley Academy,0.66
+Redlands School,0.44
+Refuge of Barnacles High School,0.66
+Island of Shivers High School,0.49
+Frozen Lake Academy,0.66
+Fortuna Institute,0.97
+Refuge of the Kraken High School,0.75
+Edgewood University,0.17
+Clearwater School for Girls,0.31

@@ -1,0 +1,100 @@
+Pacific Grove Kindergarten,0.62
+Cove of Mermaids High School,0.35
+Summerville High,0.72
+East Shores Grammar School,0.77
+Island of the Dead Kraken High School,0.97
+Horizon Technical School,0.10
+Springfield Charter School,0.85
+Island of Buccaneers High School,0.23
+Foothill Elementary,0.06
+Grand Mountain Academy,0.77
+Patriot Technical School,0.34
+Evergreen High,0.40
+Clearwater College,0.15
+Grapevine University,0.70
+Cavern of Whispers High School,0.32
+Forest Lake Charter School,0.47
+Pinewood High School,0.49
+Eagle Mountain Institute,0.72
+Diamond Institute,0.56
+Enclave of Scuttlebutt High School,0.86
+Saint Helena High School,0.52
+Sanctuary of Lost Treasure High School,0.72
+Pine Hills School of Fine Arts,0.85
+Granite Hills Charter School,0.55
+Winters Institute,0.47
+Cave of Executions High School,0.83
+Sunnyside University,0.43
+Oakleaf High School,0.26
+Bayshore University,0.28
+Blue River School for Girls,0.22
+Liberty Middle School,0.12
+Bear Valley Charter School,0.60
+Hawking Technical School,0.11
+Pleasant Hill School for Girls,0.89
+Cave of Freebooters High School,0.54
+South Fork School for Boys,0.04
+Edgewood High School,0.28
+Timber Creek University,0.58
+Eureka Kindergarten,0.82
+Evergreen Grammar School,0.86
+Valley View School of Fine Arts,0.35
+Skyline Technical School,0.27
+Reef of No Return High School,0.47
+Summerville Charter School,0.80
+Seacoast Grammar School,0.53
+Saint Marys School for Girls,0.07
+Acadia Kindergarten,0.44
+Vista College,0.65
+Lagoon of Dry Rum High School,0.09
+Pine Hills School for Girls,0.29
+White Mountain Elementary,0.90
+Oakleaf School for Boys,0.71
+Foothill Grammar School,0.89
+Reef of Auras High School,0.16
+Enclave of Anchors High School,0.70
+Spring Hill Academy,0.57
+Cay of Macaws High School,0.88
+Marble Hills Elementary,0.06
+Enterprise Kindergarten,0.37
+Great Oak Institute,0.81
+Riverbank Charter School,0.92
+Laguna Bay College,0.74
+Bay of the Black Spot High School,0.70
+Seaside Technical School,0.03
+Liberty School for Boys,0.63
+Summers Charter School,0.13
+Hideout of Corsairs High School,0.51
+Lagoon of Sunken Ships High School,0.66
+Savanna Charter School,0.59
+Mountain Oak High,0.96
+Marble Hills Academy,0.32
+Grapevine Middle School,0.30
+Anchorage of Parrots High School,0.95
+Deer River Charter School,0.71
+Sacred Heart Grammar School,0.72
+Bear Mountain Secondary School,0.51
+Granite Bay College,0.91
+Marble Hills High School,0.09
+Providence Charter School,0.64
+Rutherford Grammar School,0.21
+Haven of Dubloons High School,0.04
+Redwood Technical School,0.71
+Clear Lake School for Girls,0.66
+Savanna Secondary School,0.68
+Isle of Skulls High School,0.57
+Angelwood Grammar School,0.92
+Cave of Keelhaul High School,0.59
+Refuge of Seaweed High School,0.50
+Paradise High School,0.46
+Summerfield Institute,0.51
+Green Valley University,0.70
+Skyline Secondary School,0.33
+Sun Valley School for Girls,0.15
+Big Valley High School,0.62
+Anchorage of Scurvy High School,0.11
+Elk Valley Middle School,0.82
+Anchorage of Scallywags High School,0.93
+Pinewood Conservatory,0.73
+Sunset Secondary School,0.06
+Oakleaf Grammar School,0.56

@@ -1,0 +1,5 @@
+Refuge of Scuttle High School,0.95
+Vista Kindergarten,0.35
+Woodcreek School,0.86
+Faraday Institute,0.63
+Clearwater Kindergarten,0.17
